@@ -1,0 +1,35 @@
+$yellow:  #ffc107;
+
+$white: #FFFFFFff;
+$gray-100: #EBEBEBff;
+$gray-200: #D1D1D1ff;
+$gray-300: #B9B9B9ff;
+$gray-400: #A2A2A2ff;
+$gray-500: #8B8B8Bff;
+$gray-600: #747474ff;
+$gray-700: #5D5D5Dff;
+$gray-800: #464646ff;
+$gray-900: #2E2E2Eff;
+$gray-1000: #171717ff;
+$black: #000000ff;
+
+$grays: (
+    100: $gray-100,
+    200: $gray-200,
+    300: $gray-300,
+    400: $gray-400,
+    500: $gray-500,
+    600: $gray-600,
+    700: $gray-700,
+    800: $gray-800,
+    900: $gray-900,
+    1000: $gray-1000
+);
+
+$primary:  $yellow;
+$dark:     $gray-1000;
+
+$body-bg:     $black !default;
+$body-color:  $white !default;
+
+@import 'bootstrap/scss/bootstrap';
